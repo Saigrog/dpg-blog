@@ -1,6 +1,8 @@
-import React from 'react'
+import loadable from '@loadable/component'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import React from 'react'
+
+const PreviewCompatibleImage = loadable(() => import('../components/PreviewCompatibleImage'))
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">

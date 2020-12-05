@@ -45,6 +45,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@loadable/component": "^5.14.1",
+    "gatsby-plugin-loadable-components-ssr": "^2.1.0",
     "prettier": "^2.0.5"
   }
 }
